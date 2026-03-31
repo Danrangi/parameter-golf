@@ -70,7 +70,7 @@ parameter-golf/
 
 This submission is part of a structured learning project. 
 The author is an early-stage data science learner building 
-real research skills through a live competition — covering 
+real research skills through a live competition covering 
 literature review, architecture design, experimental 
 methodology, implementation, and academic writing in parallel.
 
