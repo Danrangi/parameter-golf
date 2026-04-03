@@ -32,7 +32,7 @@
 > step 2500. Full FineWeb run expected to significantly 
 > improve results.
 
-![Training Curve](outputs/training_curve.png)
+![Training Curve](training_curve.png)
 
 ---
 
