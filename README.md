@@ -23,7 +23,7 @@
 | Best validation BPB | **1.9908** (step 2500) |
 | Final validation BPB | 2.1284 (step 5000) |
 | Model parameters | 18,982,272 |
-| Model size (INT6) | **13.58 MB** ✅ |
+| Model size (INT6) | **13.58 MB**  |
 | Training time | 82.9 min (dev run) |
 | Dataset | FineWeb CC-MAIN-2024-10 (5M tokens) |
 
