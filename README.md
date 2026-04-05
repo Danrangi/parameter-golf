@@ -79,7 +79,7 @@ parameter-golf/
 This submission is part of a structured learning project. 
 I'm early-stage data science learner from 
 Nigeria building real research skills through a live 
-competition — covering literature review, architecture 
+competition covering literature review, architecture 
 design, experimental methodology, implementation, and 
 academic writing in parallel.
 
