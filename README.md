@@ -16,21 +16,17 @@
 
 ---
 
-## Development Results (Run 1 — Small Dataset)
+## Development Results
 
-| Metric | Value |
-|---|---|
-| Best validation BPB | **1.9908** (step 2500) |
-| Final validation BPB | 2.1284 (step 5000) |
-| Model parameters | 18,982,272 |
-| Model size (INT6) | **13.58 MB**  |
-| Training time | 82.9 min (dev run) |
-| Dataset | FineWeb CC-MAIN-2024-10 (5M tokens) |
+| Run | Dataset | Steps | Best Val BPB | Notes |
+|---|---|---|---|---|
+| Run 1 | FineWeb 5M tokens | 5,000 | 1.9908 | Overfitting after step 2500 |
+| Run 2 | FineWeb 50M tokens | 10,000 | **1.6797** | Still improving at final step |
 
-> Note: Development run on 5M token slice. Validation BPB 
-> plateaus due to limited data — overfitting observed after 
-> step 2500. Full FineWeb run expected to significantly 
-> improve results.
+> Model size: 13.58 MB  (under 16MB limit)
+> Parameters: 18,982,272
+> Best checkpoint: step 10000 (Run 2)
+
 
 ![Training Curve](training_curve.png)
 
